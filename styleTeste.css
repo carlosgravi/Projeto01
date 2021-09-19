@@ -1,0 +1,95 @@
+* {
+    color: #f0f0f0;
+    font-family: sans-serif;
+  }
+  
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+button {
+    cursor: pointer;
+    background-color: black;
+    align-content: flex-end;
+    border-radius: 10px;
+    
+}
+
+.container {
+    margin: 0 auto;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00BFFF;
+    border-radius: 8px;
+}
+
+header p {
+    font-size: 12px;
+}
+
+input {
+
+    background-color:white;
+    color: #1f0d3c;
+
+}
+
+main {
+    width: 95%;
+}
+
+form {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#incluiTarefa {
+    width: 240px;
+    border-radius: 3px;
+}
+
+
+#listaDeTarefas {
+    list-style: none;
+    padding: 0;
+}
+
+#listaDeTarefas li {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#listaDeTarefas li input {
+    margin-right: 0.5rem;
+}
+
+.task {
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 1rem;
+    width: 220px ;
+    overflow-wrap: break-word;
+}
+
+#listaDeTarefas {
+    margin-left: 1px;
+    border-radius: 3px;
+}
+
+i {
+    pointer-events: none;
+    padding: 5px;
+    
+  }
+
+.done {
+    text-decoration: line-through black 3px;
+
+}
